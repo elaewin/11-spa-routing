@@ -2,7 +2,9 @@
   var articleController = {};
 
   articleController.reveal = function() {
-    /* TODO: Reveal only the articles section! */
+    $('.tab-content').hide();
+    $('#articles').fadeIn();
+    /* DONE: Reveal only the articles section! */
   };
 
   module.articleController = articleController;
